@@ -59,6 +59,7 @@ public class SelectionMadness
             a = side1;
             b = side2;
         }
+
         double a2b2 = (Math.pow(a, 2))+(Math.pow(b, 2));
         boolean right = false;
         if(a2b2 == Math.pow(c, 2)) {
